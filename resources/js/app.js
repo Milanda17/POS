@@ -17,6 +17,7 @@ Vue.router = router
 
 Vue.component('app-component', require('./views/App').default);
 Vue.component('navbar', require('./components/Navbar').default);
+Vue.component('sidebar', require('./components/Sidebar').default);
 
 
 
