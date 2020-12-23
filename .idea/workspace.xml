@@ -2,14 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7289ab3e-5e7e-469c-bbb8-d0fe07409399" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/POS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/POS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Sidebar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Test.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,6 +143,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hit9OBs6g9EjaaK67Wnlgv4fdH" />
@@ -136,8 +156,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -173,6 +194,48 @@
       <workItem from="1603531728008" duration="10287000" />
       <workItem from="1603723702069" duration="999000" />
       <workItem from="1603737018673" duration="4369000" />
+      <workItem from="1603788871449" duration="7175000" />
+      <workItem from="1603856606684" duration="18605000" />
+      <workItem from="1603941985399" duration="10439000" />
+      <workItem from="1604288072264" duration="7567000" />
+      <workItem from="1604383632295" duration="10973000" />
+      <workItem from="1604562821672" duration="5047000" />
+      <workItem from="1604635125192" duration="19412000" />
+      <workItem from="1604897392303" duration="34022000" />
+      <workItem from="1605073428973" duration="1685000" />
+      <workItem from="1605075160547" duration="2005000" />
+      <workItem from="1605077197017" duration="13464000" />
+      <workItem from="1605152996859" duration="22569000" />
+      <workItem from="1605243526724" duration="17468000" />
+      <workItem from="1605497578933" duration="6644000" />
+      <workItem from="1605515846573" duration="6537000" />
+      <workItem from="1605584189675" duration="4929000" />
+      <workItem from="1605686756563" duration="4310000" />
+      <workItem from="1605760778997" duration="9004000" />
+      <workItem from="1605843798752" duration="16976000" />
+      <workItem from="1606111943927" duration="3869000" />
+      <workItem from="1606189174733" duration="13806000" />
+      <workItem from="1606274761923" duration="18605000" />
+      <workItem from="1606363018190" duration="15059000" />
+      <workItem from="1606448001933" duration="4772000" />
+      <workItem from="1606711125890" duration="14501000" />
+      <workItem from="1606794434192" duration="12706000" />
+      <workItem from="1606881792405" duration="11879000" />
+      <workItem from="1606968407241" duration="18846000" />
+      <workItem from="1607053773831" duration="13658000" />
+      <workItem from="1607187000141" duration="621000" />
+      <workItem from="1607240658168" duration="627000" />
+      <workItem from="1607311333921" duration="7642000" />
+      <workItem from="1607486200217" duration="12488000" />
+      <workItem from="1607572559842" duration="4871000" />
+      <workItem from="1607666516355" duration="780000" />
+      <workItem from="1607932968215" duration="2235000" />
+      <workItem from="1608091471023" duration="3091000" />
+      <workItem from="1608178101530" duration="1901000" />
+      <workItem from="1608188437000" duration="6042000" />
+      <workItem from="1608525518454" duration="3999000" />
+      <workItem from="1608613501923" duration="3905000" />
+      <workItem from="1608709978288" duration="1790000" />
     </task>
     <servers />
   </component>
@@ -184,6 +247,14 @@
       <screen x="-1366" y="0" width="1366" height="738" />
     </state>
     <state x="-909" y="171" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/-1366.0.1366.738@-1366.0.1366.738" timestamp="1603737858584" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603795640443">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603795640443" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605855357059">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1605855357059" />
     <state x="-903" y="124" key="FileChooserDialogImpl" timestamp="1603737045552">
       <screen x="-1366" y="0" width="1366" height="738" />
     </state>
@@ -209,13 +280,53 @@
       <screen x="-1366" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1366.738/-1366.0.1366.738@-1366.0.1366.738" timestamp="1603737189100" />
-    <state x="184" y="14" key="SettingsEditor" timestamp="1603724699748">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="184" y="14" key="SettingsEditor" timestamp="1606215465088">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="184" y="14" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1606215465088" />
     <state x="184" y="14" key="SettingsEditor/0.0.1366.738/-1366.0.1366.738@0.0.1366.738" timestamp="1603724699748" />
-    <state x="-1366" y="0" width="585" height="738" key="find.popup" timestamp="1603737695546">
-      <screen x="-1366" y="0" width="1366" height="738" />
+    <state width="525" height="446" key="SwitcherDM" timestamp="1605865541235">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="525" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1605865541235" />
+    <state x="0" y="0" width="585" height="728" key="find.popup" timestamp="1606726165640">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="585" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1606726165640" />
     <state x="-1366" y="0" width="585" height="738" key="find.popup/0.0.1366.738/-1366.0.1366.738@-1366.0.1366.738" timestamp="1603737695546" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1603965178781">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1603965178781" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606988378815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606988378815" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/database/migrations/2020_11_06_094329_create_students_table.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/js/components/IssueBook.vue</url>
+          <line>316</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/js/components/AddStudent.vue</url>
+          <line>209</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/resources/js/components/Statistics.vue</url>
+          <line>40</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

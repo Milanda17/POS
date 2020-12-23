@@ -40,6 +40,18 @@
                         </div>
 
                         <div class="form-group row">
+                            <label for="branch" class="col-md-4 col-form-label text-md-right">Branch</label>
+                            <div class="col-md-6">
+                                <select id="branch" class="form-control" name="branch" required autocomplete="branch">
+                                    <option value="dambulla">Dambulla</option>
+                                    <option value="hambanthota">Hambanthota</option>
+                                    <option value="monaragala">Monaragala</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
                             <div class="col-md-6 offset-md-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>

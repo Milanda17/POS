@@ -61,6 +61,25 @@
                             </div>
                         </div>
 
+                        <div class="form-group row">
+                            <label for="branch" class="col-md-4 col-form-label text-md-right">{{ __('Branch') }}</label>
+
+                            <div class="col-md-6">
+                                <select id="branch" class="form-control required @error('branch') is-invalid @enderror" name="branch" value="{{ old('branch') }}" autocomplete="branch" >
+                                    <option value="dambulla">Dambulla</option>
+                                    <option value="hambanthota">Hambanthota</option>
+                                    <option value="monaragala">Monaragala</option>
+
+                                </select>
+
+                                @error('branch')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+                        </div>
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
